@@ -1,0 +1,7 @@
+
+export BASE_MYSQL_PORT_3306_TCP_ADDR=localhost
+export BASE_MYSQL_ENV_MYSQL_ROOT_PASSWORD=
+export BASE_MYSQL_PORT_3306_TCP_PORT=3306
+export BASE_MYSQL_DATABASE=base_development
+export BASE_ENV=development
+export BASE_WEBDIR=./www
