@@ -16,6 +16,7 @@ func main() {
 	mux := http.NewServeMux()
 	adm.MountTo("/admin", mux)
 
+	beego.Handler("/admin", mux)
 	beego.Handler("/admin/*", mux)
 	beego.Run()
 
